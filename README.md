@@ -13,7 +13,7 @@ Three machines close in. She draws her sword, backflips through the first one, t
 python3 -m http.server 8765
 ```
 
-Then open http://localhost:8765/dance.html. There's no build step. three.js `0.160.0` loads from jsdelivr, so you need internet.
+Then open http://localhost:8765/. There's no build step. three.js `0.160.0` loads from jsdelivr, so you need internet.
 
 | Input | Action |
 |---|---|
@@ -31,7 +31,7 @@ URL flags: `?cine` and `?orbit` open in a camera mode. Add `&rec` to record the 
 The code is plain ES modules with no bundler. Each module builds its part of the scene when it's imported, so the import order in `main.js` is also the order the scene gets built in.
 
 ```
-dance.html          page shell: styles, the import map (three + addons), loads src/main.js
+index.html          page shell: styles, the import map (three + addons), loads src/main.js
 src/
   main.js           the frame loop: pose, feet, backflip, camera, fight, effects, sound, physics, render
   stage.js          renderer, scene, cameras, lights, the low-res + dither pass with cinematic bars
