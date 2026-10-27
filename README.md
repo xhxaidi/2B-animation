@@ -1,6 +1,6 @@
 # Pixel Dance (2B)
 
-![The cinematic camera: she draws, backflips through the first machine, and spins through the other two as they blow up](media/fight.gif)
+![The wide orbit: the camera circles the grass island as she draws, backflips through the first machine, and spins through the other two as they blow up](media/orbit.gif)
 
 A pixel-art, real-time 3D fan-art animation of 2B from *NieR:Automata*, made with three.js. She stands in tall, wind-blown grass ringed by robot wreckage, with her Pod floating at her shoulder.
 Three machines close in. She draws her sword, backflips through the first one, then cuts the other two down with a spinning slash and sheathes again. The scene loops in about 16 seconds.
