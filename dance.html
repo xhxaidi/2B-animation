@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel Dance</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  canvas { display: block; image-rendering: pixelated; cursor: grab; touch-action: none; }
+  canvas:active { cursor: grabbing; }
+  #hint { position: fixed; left: 16px; bottom: 16px; font: 12px/1.4 ui-monospace, Menlo, monospace; color: #888; pointer-events: none; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="hint">click for sound · drag to rotate · scroll to zoom · C cinematic camera · O wide orbit · R record a video · M mute</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
